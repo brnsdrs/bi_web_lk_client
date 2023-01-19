@@ -7,10 +7,7 @@
 </template>
 <script>
 export default {
-  name: "BiArticleCard",
-  data() {
-
-  }
+  name: "BiArticleCard"
 }
 </script>
 

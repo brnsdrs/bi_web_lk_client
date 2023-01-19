@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-button class="bibtn align-content-center">
-        <slot></slot>
+        <slot class="BiMenuItem"></slot>
     </b-button>
   </div>
 </template>

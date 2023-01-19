@@ -9,13 +9,12 @@
         background="#ababab"
         img-width="100%"
         style="text-shadow: 1px 1px 2px #333;"
-        @sliding-start="onSlideStart"
-        @sliding-end="onSlideEnd"
+
     >
       <b-carousel-slide>
         <template #img>
           <img
-              class="d-block img-fluid w-100"
+              class="d-block img-fluid w-100 carImg"
               width="1024"
               height="445"
               src="../../public/desktop.jpg"
@@ -27,7 +26,7 @@
       <b-carousel-slide>
         <template #img>
           <img
-              class="d-block img-fluid w-100"
+              class="d-block img-fluid w-100 carImg"
               width="1024"
               height="445"
               src="../../public/desktop.jpg"
@@ -39,7 +38,7 @@
       <b-carousel-slide>
         <template #img>
           <img
-              class="d-block img-fluid w-100"
+              class="d-block img-fluid w-100 carImg"
               width="1024"
               height="445"
               src="../../public/desktop.jpg"
@@ -73,6 +72,10 @@ export default {
 .button {
   background-color: black;
   width: 200px;
+}
+
+.carImg {
+  min-height: 300px;
 }
 
 </style>

@@ -1,9 +1,10 @@
-//@import 'node_modules/bootstrap/scss/bootstrap.scss';
-//@import 'node_modules/bootstrap-vue/src/index.scss';
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/bootstrap-vue/src/index.scss';
 #app, html, body {
   margin: 0;
   padding: 0;
   width: 100%;
+
 }
 
 .navbar-brand {
@@ -54,4 +55,14 @@
 
 #nav-collapse {
   width: 100%;
+}
+
+.BiHome {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+
+.BiMenuItem {
+  font-family: 'Rubik', sans-serif !important;
 }
