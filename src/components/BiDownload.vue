@@ -52,6 +52,12 @@ export default {
   height: 300px;
 }
 
+.banner span {
+  font-size: 20px;
+  font-weight: 500;
+  color: gray;
+}
+
 .storeLabel img {
   width: 200px;
 }

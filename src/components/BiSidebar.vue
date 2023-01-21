@@ -1,20 +1,36 @@
 <template>
-  <div class="BiHome">
-    <VueSidebarMenuAkahon/>
+  <div class="biSidebar">
+    <div class="row">
+      <bi-button class="butt">d</bi-button>
+      <bi-button class="butt">d</bi-button>
+      <bi-button class="butt">d</bi-button>
+      <bi-button class="butt">d</bi-button>
+      <bi-button class="butt">d</bi-button>
+
+    </div>
   </div>
 </template>
 
 <script>
-import VueSidebarMenuAkahon from "vue-sidebar-menu-akahon";
+
+import BiButton from "@/components/UI/BiButton.vue";
 
 export default {
   name: "BiSidebar",
   components: {
-    VueSidebarMenuAkahon
+    BiButton
   }
 }
 </script>
 
 <style scoped>
+.biSidebar {
+  margin: 0;
+  padding: 10%;
+}
+
+.butt {
+  margin: 20px;
+}
 
 </style>

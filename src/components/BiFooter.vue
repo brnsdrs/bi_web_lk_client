@@ -74,6 +74,14 @@
   <div class="row biFooter">
     <v-divider/>
   </div>
+  <div class="row biFooter">
+    <div class="col-6">
+      <p>© 2020 Workflow, Inc. All rights reserved.</p>
+    </div>
+    <div class="col-6">
+      <p>aaa</p>
+    </div>
+  </div>
 </div>
 </template>
 

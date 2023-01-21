@@ -17,12 +17,12 @@
 
 <script>
 
-import biProductCard from "@/components/UI/biProductCard.vue";
+import BiProductCard from "@/components/UI/BiProductCard.vue";
 
 export default {
   name: "newProduct",
   components: {
-    biProductCard
+    BiProductCard
   }
 }
 </script>
@@ -41,6 +41,7 @@ export default {
 
 .biNewsHeader h3 {
   text-align: center;
+  padding-top: 50px;
 }
 
 .cardGroup {

@@ -60,7 +60,7 @@ export default {
 
 <style scoped>
 .b-card {
-  margin: 10px;
+  margin: 20px;
   padding: 10px;
 }
 
