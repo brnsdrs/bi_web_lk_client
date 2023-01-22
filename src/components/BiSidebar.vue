@@ -1,24 +1,18 @@
 <template>
   <div class="biSidebar">
-    <div class="row">
-      <bi-button class="butt">d</bi-button>
-      <bi-button class="butt">d</bi-button>
-      <bi-button class="butt">d</bi-button>
-      <bi-button class="butt">d</bi-button>
-      <bi-button class="butt">d</bi-button>
-
-    </div>
+    <bi-sidebar-row>
+    </bi-sidebar-row>
   </div>
 </template>
 
 <script>
 
-import BiButton from "@/components/UI/BiButton.vue";
+import BiSidebarRow from "@/components/UI/BiSidebarRow.vue";
 
 export default {
   name: "BiSidebar",
   components: {
-    BiButton
+    BiSidebarRow
   }
 }
 </script>

@@ -6,6 +6,7 @@ import BiClients from "@/views/BiClients.vue";
 import BiContacts from "@/views/BiContacts.vue";
 import BiCart from "@/views/BiCart.vue";
 import BiAboutUs from "@/views/BiAboutUs.vue";
+import BiDistributors from "@/views/BiDistributors.vue";
 
 Vue.use(VueRouter)
 
@@ -23,7 +24,12 @@ const routes = [
   {
     path: '/catalog',
     name: 'catalog',
-    component: BiCatalog
+    component: BiCatalog,
+    items: {
+      path: '/kega',
+      name: 'kega',
+
+    }
   },
   {
     path: '/clients',
@@ -33,7 +39,7 @@ const routes = [
   {
     path: '/distributor',
     name: 'distributors',
-    component: BiClients
+    component: BiDistributors
   },
   {
     path: '/contacts',
