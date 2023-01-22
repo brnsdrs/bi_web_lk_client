@@ -4,18 +4,23 @@
       <BiSidebar/>
     </div>
     <div class="biCatalogBody col-10">
-
+      <b-card-group>
+        <product-card></product-card>
+      </b-card-group>
     </div>
   </div>
 </template>
 
 <script>
-
 import BiSidebar from "@/components/BiSidebar.vue";
+import ProductCard from "@/components/UI/BiProductCard.vue";
+
+
 
 export default {
   name: "BiCatalog",
   components: {
+    ProductCard,
     BiSidebar
   },
 }
