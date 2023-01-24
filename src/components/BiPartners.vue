@@ -1,26 +1,32 @@
 <template>
-<div class="container">
-  <div class="row partnersContainer">
-    <div class="partners">
-      <img src="par-araeta.svg" alt="araeta">
+<div class="flex flex-col text-center items-center justify-center w-full bg-white space-y-6 py-[100px]">
+  <div class="flex flex-wrap max-w-[1217px] w-full space-x-[32px]">
+    <div class="flex items-center justify-center bg-lightGray rounded-xl min-w-[217px] h-[96px] ">
+      <img class="" src="/blocks/partners/par-araeta.svg" alt="araeta">
     </div>
-    <div class="partners">
-      <img src="par-benbel.svg" alt="araeta">
+    <div class="flex items-center justify-center bg-lightGray rounded-xl min-w-[217px] h-[96px] ">
+      <img class="" src="/blocks/partners/benbel.svg" alt="araeta">
     </div>
-    <div class="partners">
-      <img src="par-cortina.svg" alt="araeta">
+    <div class="flex items-center justify-center bg-lightGray rounded-xl min-w-[217px] h-[96px] ">
+      <img class="" src="/blocks/partners/cortina.svg" alt="araeta">
     </div>
-    <div class="partners">
-      <img src="par-dalDacha.svg" alt="araeta">
+    <div class="flex items-center justify-center bg-lightGray rounded-xl min-w-[217px] h-[96px] ">
+      <img class="" src="/blocks/partners/dalDacha.svg" alt="araeta">
     </div>
-    <div class="partners">
-      <img src="par-novopacre.svg" alt="araeta">
+    <div class="flex items-center justify-center bg-lightGray rounded-xl min-w-[217px] h-[96px]">
+      <img class="" src="/blocks/partners/novopacre.svg" alt="araeta">
     </div>
   </div>
+  <div class="text-gray text-sm font-semibold uppercase">
+    <span>Наш опыт научил нас, как подбирать пиво или сидр для своих партнеров, чтобы их гости хотели за ним возвращаться</span>
+  </div>
+</div>
+<!-- <div class="container">
+  
   <div class="text-center parText">
     НАШ ОПЫТ НАУЧИЛ НАС, КАК ПОДБИРАТЬ ПИВО ИЛИ СИДР ДЛЯ СВОИХ ПАРТНЕРОВ, ЧТОБЫ ИХ ГОСТИ ХОТЕЛИ ЗА НИМ ВОЗВРАЩАТЬСЯ
   </div>
-</div>
+</div> -->
 </template>
 
 <script>
@@ -29,33 +35,3 @@ export default {
   name: "BiPartners"
 }
 </script>
-
-<style scoped>
-.container {
-  margin-bottom: 50px;
-}
-.partnersContainer {
-  justify-content: center;
-}
-
-.partners {
-  margin: 5px auto;
-  height: 100px;
-  line-height: 100px;
-  min-width: 207px;
-  max-width: 300px;
-  background-color: #F4F3F1;
-  border-radius: 15px;
-  align-content: center;
-}
-
-.partners img {
-  display: block;
-  margin: 15% auto;
-}
-
-.parText {
-  margin: 20px 10px;
-}
-
-</style>

@@ -1,6 +1,6 @@
 <template>
   <div class="BiHome">
-    <BiCarousel/>
+    <!-- <BiCarousel/> -->
     <BiCatalogTile/>
     <BiPartners/>
     <BiNewProduct/>
@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import BiCarousel from "@/components/BiCarousel.vue";
+// import BiCarousel from "@/components/BiCarousel.vue";
 import BiCatalogTile from "@/components/BiCatalogTile.vue";
 import BiPartners from "@/components/BiPartners.vue";
 import BiNewProduct from "@/components/BiNewProduct.vue";
@@ -20,7 +20,7 @@ import BiDownload from "@/components/BiDownload.vue";
 export default {
   name: "BiHome",
   components: {
-    BiCarousel,
+    // BiCarousel,
     BiCatalogTile,
     BiPartners,
     BiNewProduct,

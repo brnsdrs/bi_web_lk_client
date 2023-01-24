@@ -1,28 +1,14 @@
 <template>
-  <div class="banner">
-    <div class="container">
-      <div class="row">
-        <div class="col-8">
-          <div class="row">
-            <h2>Заказывай в приложении</h2>
-          </div>
-          <div class="row">
-            <span>Вся информация под рукой в приложении</span>
-          </div>
-          <div class="row">
-            <div class="col-6 storeLabel">
-              <img src="../../public/appStore.svg" alt="appStore"/>
-            </div>
-            <div class="col-6 storeLabel">
-              <img src="../../public/googlePlay.svg" alt="googlePlay"/>
-            </div>
-          </div>
-        </div>
-        <div class="col-4">
-          <img src="../../public/phoneImg.svg" alt="phoneImg"/>
-        </div>
+  <div class="w-full flex justify-center bg-lightGray pt-10 space-x-[106px]">
+    <div class="flex flex-col w-[504px] pt-[32px]">
+      <span class="mb-2 font-bold text-black text-4xl">Заказывайте в приложении</span>
+      <span class="mb-6 text-black-500 text-xl font-medium">Вся информация под рукой в приложениии</span>
+      <div class="flex items-center space-x-[12px]">
+        <img class="w-[179px] h-[58px]" src="/blocks/download/appStore.png" alt="">
+        <img class="w-[179px] h-[58px] " src="/blocks/download/googlePlay.png" alt="">
+      </div>
     </div>
-  </div>
+    <img class="w-[270px]" src="/blocks/download/phone.png" alt="">
   </div>
 </template>
 
@@ -31,35 +17,3 @@ export default {
   name: "BiDownload"
 }
 </script>
-
-<style scoped>
-.container {
-  min-width: 600px;
-  max-width: 800px;
-}
-
-.storeLabel{
-  padding: 0;
-  height: 150px;
-  display: flex;
-
-}
-.banner {
-  background-color: #F4F3F1;
-  padding-left: 100px;
-  padding-right: 100px;
-  padding-top: 50px;
-  height: 300px;
-}
-
-.banner span {
-  font-size: 20px;
-  font-weight: 500;
-  color: gray;
-}
-
-.storeLabel img {
-  width: 200px;
-}
-
-</style>

@@ -1,73 +1,16 @@
-@import 'node_modules/bootstrap/scss/bootstrap.scss';
-@import 'node_modules/bootstrap-vue/src/index.scss';
-#app, html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  font-family: 'Inter', sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
+@import url('https://fonts.cdnfonts.com/css/inter');
+
+@layer base {
+  html, body {
+    font-family: 'Inter', sans-serif;
+  }
 }
 
-.navbar-brand {
-  padding: 5px 5px 5px 30px !important;
-  margin: 0 !important;
-  width: 20%;
-}
-
-.nav-link {
-  text-align: center;
-}
-
-.right-menu {
-  width: 40px;
-}
-
-.catLabel {
-  position: absolute;
-  width: 100%;
-  bottom: 0;
-  margin-left: 20px;
-  margin-bottom: 20px;
-  background-image: url("../public/Subtract.svg");
-  min-height: 45px;
-  max-width: 100px;
-  padding: 0;
-  font-size: 16px;
-//inbox text
-  line-height: 45px;
-  text-align: center;
-  font-weight: bold;
-}
-
-.articleCard {
-  margin: 20px;
-  border-radius: 15px;
-  width: 350px;
-  height: 400px;
-  background-image: url("../public/articleImg1.svg");
-  display: flex;
-  padding: 10px;
-  justify-content: flex-end;
-}
-
-.container-fluid {
-  width: 100%;
-}
-
-#nav-collapse {
-  width: 100%;
-}
-
-.BiHome {
-  margin: 0;
-  padding: 0;
-  justify-content: center;
-}
-
-.BiMenuItem {
-  font-family: 'Rubik', sans-serif !important;
-}
-
-.bg-light {
-  background-color: white !important;
+button, input, select, textarea {
+  background-color: transparent;
+  border-style: inherit !important;
 }
