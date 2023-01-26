@@ -1,71 +1,43 @@
 <template>
-  <div>
-    <b-card class="b-card"
-        title="Card Title"
-        img-src="newImg.svg"
-        img-alt="Image"
-        img-top
-        tag="article"
-        style="max-width: 15rem;
-                min-width: 300px;
-              "
-    >
-      <b-card-text>
-        <div class="row">
-          <div class="col-6 cardMenu">
-            Градус
+  <div class="flex flex-col space-y-2.5 h-[338px] max-w-[212px] bg-white rounded-3xl flex-1 px-5 pt-5 pb-3">
+          <div class="bg-lightGray h-[136px] w-full rounded-[20px]">
+            <!-- img + button -->
           </div>
-          <div class="col-6">
-            AAA
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-6 cardMenu">
-            Объём
-          </div>
-          <div class="col-6">
-            AAA
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-6 cardMenu">
-            Количество в коробке
-          </div>
-          <div class="col-6">
-            AAA
+          <div class="flex justify-between flex-col flex-1 text-xs">
+            <div class="flex flex-col text-black space-y-1 mb-2">
+              <div class="flex items-center space-x-2 mb-2.5">
+                <span class="font-bold text-base leading-[19px]">169.81 ₽</span>
+                <span class="line-through text-black-500 text-[12px] leading-[14px]">169.81 ₽</span>
+                <div class="bg-purple text-[8px] leading-[9.6px] flex justify-center items-center rounded-[8px] p-1 text-white">-15%</div>
+              </div>
+              <div class="flex">
+                <!-- flag -->
+                <span class="font-bold uppercase text-xs">WILL BRAU WEIZEN</span>
+              </div>
+              <span class="text-xs leading-[14px]">Безалкогольное пшеничное </span>
+            </div>
+            <div class="flex items-center justify-start space-x-2 text-black-500 ">
+              <span>0.5%</span>
+              <div class="bg-black-500 w-1 h-1 rounded-full" />
+              <span>0,33 мл</span>
+              <div class="bg-black-500 w-1 h-1 rounded-full" />
+              <span>20 штук</span>
+            </div>
+            <div class="text-purple mb-2">
+              543 шт. в наличии 
+            </div>
+            <button class="w-full flex items-center justify-center border border-lightGreen text-lightGreen rounded-[30px] py-2.5">
+              В корзину
+            </button>
           </div>
         </div>
-        <div class="row">
-          <div class="col-6 cardMenu">
-            Наличие
-          </div>
-          <div class="col-6">
-            AAA
-          </div>
-        </div>
-      </b-card-text>
-      <bi-button>Подробнее</bi-button>
-    </b-card>
-  </div>
 </template>
 
 <script>
-import BiButton from "@/components/UI/BiButton.vue";
+// import BiButton from "@/components/UI/BiButton.vue";
 
 export default {
   name: "productCard",
-  components: {BiButton}
+  // components: {BiButton}
 }
 </script>
-
-<style scoped>
-.b-card {
-  margin: 20px;
-  padding: 10px;
-}
-
-.cardMenu {
-  text-align: start;
-  font-size: 12px;
-}
-</style>
