@@ -1,5 +1,5 @@
 <template>
-<div class="flex flex-col text-center items-center justify-center w-full bg-white space-y-6 py-[100px]">
+<div class="flex flex-col text-center items-center justify-center w-full bg-white space-y-6 py-[100px] sm:py-[70px] sm:px-3">
   <div class="flex flex-wrap max-w-[1217px] w-full space-x-[32px]">
     <div class="flex items-center justify-center bg-lightGray rounded-xl min-w-[217px] h-[96px] ">
       <img class="" src="/blocks/partners/par-araeta.svg" alt="araeta">

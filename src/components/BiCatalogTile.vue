@@ -1,7 +1,7 @@
 <template>
-<div class="w-full flex items-center justify-center">
+<div class="w-full flex items-center justify-center sm:px-3">
   <div class="flex flex-col items-center justify-center w-full max-w-desktop-full sm:max-w-full space-y-10">
-    <div class="grid grid-cols-4 gap-4 w-full sm:grid-cols-2">
+    <div class="grid grid-cols-4 gap-4 w-full sm:gap-3 sm:grid-cols-2">
       <div class="relative flex flex-col justify-between items-start px-[30px] py-10 row-span-2 col-span-2 bg-lightGray rounded-xl min-h-[380px] sm:min-h-[158px] sm:row-span-1 sm:col-span-1">
         <div class="flex items-center space-x-2 text-xl font-bold">
           <span class="text-black">Пиво</span>
@@ -21,7 +21,7 @@
       <div class="px-[30px] py-10 bg-lightGray rounded-xl min-h-[179px] sm:min-h-[158px] sm:row-span-1 sm:col-span-1">lit</div>
       <div class="px-[30px] py-10 bg-lightGray rounded-xl min-h-[179px] sm:min-h-[158px] sm:row-span-1 sm:col-span-1">lit</div>
     </div>
-    <button class="bg-lightGreen py-[13px] px-[15px] rounded-xl text-white font-semibold"> Подробнее о компании </button>
+    <button class="bg-lightGreen py-[13px] px-[15px] rounded-xl text-white font-semibold sm:!mt-6 sm:w-full"> В каталог </button>
   </div>
 </div>
   
