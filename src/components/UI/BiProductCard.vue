@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col space-y-2.5 h-[338px] max-w-[212px] bg-white rounded-3xl flex-1 px-5 pt-5 pb-3">
+  <div class="flex flex-col space-y-2.5 h-[338px] w-[212px] bg-white rounded-3xl p-3 hover:drop-shadow-lg cursor-pointer">
           <div class="bg-lightGray h-[136px] w-full rounded-[20px]">
             <!-- img + button -->
           </div>
@@ -26,7 +26,7 @@
             <div class="text-purple mb-2">
               543 шт. в наличии 
             </div>
-            <button class="w-full flex items-center justify-center border border-lightGreen text-lightGreen rounded-[30px] py-2.5">
+            <button class="w-full flex items-center justify-center border border-lightGreen text-lightGreen rounded-[30px] py-2.5 hover:text-white hover:bg-lightGreen">
               В корзину
             </button>
           </div>

@@ -1,14 +1,32 @@
 <template>
-  <div class="BiHome row">
-    <div class="col-2">
-      <BiSidebar/>
+  <div class="flex w-full h-full max-w-desktop-main-content overflow-hidden">
+    <BiSidebar/>
+    <div class="flex flex-col p-[28px] w-full max-w-[calc(100vw-255px)] space-y-6">
+      <!-- catalog title -->
+      <div class="flex items-center justify-start space-x-[15px] text-[40px] leading-[47px] font-semibold px-[12px]">
+        <span class="text-black">Title</span>
+        <span class="text-black-500">1234</span>
+      </div>
+      <!-- catalog filters -->
+
+      <!-- catalog -->
+      <div class="flex flex-wrap items-center justify-start overflow-auto">
+          <div class="p-3">
+            <product-card></product-card>
+          </div>
+          <div class="p-3">
+            <product-card></product-card>
+          </div>
+          <div class="p-3">
+            <product-card></product-card>
+          </div>
+          <div class="p-3">
+            <product-card></product-card>
+          </div>
+      </div>
+      
     </div>
-    <div class="biCatalogBody col-10">
-      <b-card-group>
-        <product-card></product-card>
-      </b-card-group>
-    </div>
-  </div>
+  </div>  
 </template>
 
 <script>

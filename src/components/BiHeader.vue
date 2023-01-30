@@ -2,7 +2,7 @@
   <div class="sticky top-0 w-full flex items-center justify-center bg-white h-[60px] z-40">
     <div class="flex items-center justify-between w-full max-w-desktop-header max-w-full px-10 py-2.5 sm:px-4">
       <div class="flex-1">
-        <img class="h-[29px]" src="BI-logo.svg" alt="BeerInsiders"/>
+        <img class="h-[29px]" src="/BI-logo.svg" alt="BeerInsiders"/>
       </div>
       <div class="flex-1 flex items-center justify-center space-x-6 text-black sm:hidden">
         <a href="">Каталог</a>

@@ -17,6 +17,8 @@ module.exports = {
       maxWidth: {
         'desktop-full': '1168px',
         'desktop-header': '1440px',
+        'desktop-main-content': '1440px',
+        'desktop-sideBar': '255px',
       },
       colors: {
         white: '#ffffff',
@@ -27,6 +29,7 @@ module.exports = {
         lightGray3: '#F8F8FA',
         gray: '#7A7A79',
         black: '#000000',
+        'black-100': 'rgba(0, 0, 0, .1)',
         'black-400': 'rgba(0, 0, 0, .4)',
         'black-500': 'rgba(0, 0, 0, .5)',
         lightGreen: '#A6D05D',
