@@ -24,7 +24,7 @@
               <span>20 штук</span>
             </div>
             <div class="text-purple mb-2">
-              543 шт. в наличии 
+              543 шт. в наличии
             </div>
             <button class="w-full flex items-center justify-center border border-lightGreen text-lightGreen rounded-[30px] py-2.5">
               В корзину
@@ -38,6 +38,14 @@
 
 export default {
   name: "productCard",
-  // components: {BiButton}
+  // components: {BiButton},
+  props: {
+    product_data: {
+      type: Object,
+      default() {
+        return {}
+      }
+    }
+  }
 }
 </script>
