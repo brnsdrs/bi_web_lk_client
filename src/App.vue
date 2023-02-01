@@ -1,8 +1,10 @@
 <template>
   <div id="app">
-    <BiHeader/>
-    <router-view/>
-    <!-- <BiFooter/> -->
+    <div class="flex flex-col w-screen h-screen overflow-auto">
+      <BiHeader/>
+      <router-view/>
+       <!-- <BiFooter/> -->
+    </div>
   </div>
 </template>
 
